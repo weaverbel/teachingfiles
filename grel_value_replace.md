@@ -3,7 +3,7 @@
 |	Task description |	Task starting from |	GREL Expression syntax |	Example | Explanation |
 | ------------- |:-------------:| :-------------:|:-------------:| :-------------:|
 Replace one character with another, where *x* is the existing value and *y* is the value being substituted |	Edit cells -> Transform	| value.replace("x", "y") |	value.replace("&", ":") |  Substituting a colon for an ampersand |
-Replace several characters (*abcde*) with several others (*vwxyz*) |	Edit cells -> Transform	| value.replace("chars ", "newchars") |	value.replace("abcde", "vwxyz") |  Replacing one string of characters with another |
+Replace several characters (*abcde*) with several others (*vwxyz*) |	Edit cells -> Transform	| value.replace("chars", "newchars") |	value.replace("abcde", "vwxyz") |  Replacing one string of characters with another |
 |	Replace a single character (*x*) with several other characters (*vwxyz*) |	Edit cells -> Transform	| value.replace("char", "newchars") |	value.replace("&", "and") |  Replacing one character with a string |
 |	Replace a string of characters with nothing, i.e. remove data |	Edit cells -> Transform	| value.replace("*x*", "") |	value.replace("00:00 AEST", "")   | This removes time from a time and date statement |
 |	Remove punctuation |		Edit cells -> Transform	|	value.replace("*x*", "") | value.replace("-", "") |  Removes a hyphen |
