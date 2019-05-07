@@ -8,7 +8,7 @@ Replace several characters (*abcde*) with several others (*vwxyz*) |	Edit cells 
 |	Replace a string of characters with nothing, i.e. remove data |	Edit cells -> Transform	| value.replace("x ", "") |	value.replace("00:00 AEST", "")   | This removes time from a time and date statement |
 |	Replace one character with nothing, i.e. remove a character |		Edit cells -> Transform	|	value.replace("x", "") |	 |	x is now gone |
 | Remove empty space | 		Edit cells -> Transform	 | value.replace(" ", "") |  |  Removes a single space |
-| Remove empty spaces | 		Edit cells -> Transform	 | value.replace("   ", "") |  |  Removes more than one space |
+| Remove empty spaces | 		Edit cells -> Transform	 | value.replace("&nbsp;&nbsp;&nbsp;", "") |  |  Removes more than one space |
 | Remove punctuation | 		Edit cells -> Transform	 | value.replace("-", "") |  |  Removes a hyphen |
 |	 Replace content of one column with content of another |		Edit cells -> Transform	|	 cells["desired_column"].value  |  Enter this in the column you want to transform.  | You might need to filter the rows you want to transform FIRST if there is a mix of different data in the column and you only want to replace **some** of the data.  |	
 |	Replace a range of values with a single value using a regular expression |		Edit cells -> Transform	|	 value.replace(/\d{4}/,"state_name") |	value.replace(/\d{4}/,"QLD") |  Replacing a range of postcodes in a column with the name of a state|	
