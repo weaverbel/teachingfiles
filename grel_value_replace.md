@@ -13,3 +13,9 @@ Replace several characters (*abcde*) with several others (*vwxyz*) |	Edit cells 
 |	 Replace content of one column with content of another |		Edit cells -> Transform	|	 cells["desired_column"].value  |  Enter this for the column you want to transform.  | If there is a mix of data in the column, filter rows you want to transform **FIRST** to avoid overwriting data you want to keep.  |	
 |	Replace a range of values with a single value using a regular expression |		Edit cells -> Transform	|	 value.replace(/_regular expression_/,"newchars") |	value.replace(/\d{4}/,"QLD") |  Replacing a range of four-digit postcodes in a column with the abbreviation for a state |	
 |	Replace a specific value at the start of a string with another value using a regular expression	|	 Edit column -> Add column based on this column |		value.replace(/_regular expression_/,"newchars")	|	 value.replace(/^04/,"+614") |  Adding a new column to create an international version of a local Australian mobile phone number  |	
+
+### Using Split
+
+|	Task description |	Task starting from |	GREL Expression syntax |	Example | Explanation |
+| ------------- |:-------------:| :-------------:|:-------------:| :-------------:|
+|	Create a new column based on a value within a string	|	 Edit column -> Add column based on this column |	smartSplit(value, ",")[-4]	|	smartSplit(value, *string separator*)[*string_position*] | Adding a new column based on the value fourth from the end of a string in which a comma is the separator  |	
