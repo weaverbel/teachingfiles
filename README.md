@@ -1,2 +1,2 @@
-# teachingfiles
-Spreadsheets I will use in my OR lesson
+## teachingfiles
+Spreadsheets and other files I will use in my OpenRefine teaching
