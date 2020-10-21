@@ -2,27 +2,30 @@
 
 ### Step 1 - Documentation
 
-Document all the procedures for your experiment, trial, survey etc. so that someone outside your project could understand your workings.  Record where results and working data will be saved and save that information where your chief investigator, supervisor or team members can access it.  Use a word document or text file to record the steps.  
+Document all the procedures for your experiment, trial, survey, or study so that someone outside your project could understand your workings.  Record where results and working data will be saved and save that information where your chief investigator, supervisor or team members can access it.  Use a word document or text file to record the steps.  
 
-More details here: [How to start documenting and more by CESSDA ERIC](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata).
+Read how to do that here: [How to start documenting and more by CESSDA ERIC](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata).
 
 ### Step 2 Naming conventions
-Name your files consistently and logically to protect yourself from misplaced or lost data and possible project delays. Establishing a consistent file naming convention from the start will ensure files are easier to find, process, understand, and version control. A good, basic convention includes standard order, date formats, vocabulary, numbers and punctuation such as these examples:
+
+From the outset, name your files consistently and logically to protect yourself from misplaced or lost data and possible project delays. Establishing a consistent file naming convention from the start will ensure files are easier to find, process, understand, and version control. A good, basic convention includes standard order, date formats, vocabulary, numbers and punctuation, e.g.
 
 `YYYY-MM-DD_ProjectAbbreviation_FileInformation_Version.filetype`
 
-translates to:
+Two examples:
 
 `2020-01-20_BehChange_Survey1_RawData.xls`
 
 `2020-01-20_BehChange_Survey1_WorkData_V1.xls`
 
 ### Step 3 Folder Structure
-Create a standard folder structure to keep files organised. Very helpful if sharing files with colleagues. Folders should also follow a logical naming convention.  One simple method is to create folders prefixed by number to reflect your workflow steps. Adding a leading zero for numbers 1-9 will ensure folders appear in the right sequence. Create and store a README.txt file outlining the contents of folders. More here 
+
+Create a standard folder structure to keep files organised. Very helpful if sharing files with colleagues. Folders, like files, should follow a logical naming convention.  One simple method is to create folders prefixed by number to reflect your workflow steps. Adding a leading zero for numbers 1-9 will ensure folders appear in the right sequence. Create and store a `README.txt` file outlining the contents of folders. [Read more about folders.](https://guereslib.github.io/Reproducible-Research-Things/Step3FolderStruct)
 
 
 ### Step 4 Automation
-Automate repetitive tasks to eliminate monotony, potential errors, and time that could be better spent on research. Options include using an MS Excel text function, formula or macro, learning to create reusable scripts to repeat data cleaning tasks in OpenRefine, and using Task scheduler for Windows or Automator for MacOS.  Video training link: http://librarycatalogue.griffith.edu.au/record=b2768540~S1 Beginners’ book on data analysis with Excel http://librarycatalogue.griffith.edu.au/record=b2681940~S1 
+
+Automate repetitive tasks to eliminate monotony, potential errors, and claw back time that could be better spent on research. Options include using an MS Excel text function, formula or macro, learning to create reusable scripts to repeat data cleaning tasks in OpenRefine, using pipes and loops in the Unix shell, and using Task scheduler for Windows or Automator for MacOS. Check out the [advanced Excel training](http://librarycatalogue.griffith.edu.au/record=b2768540~S1)or the [beginners' book on data analysis with Excel](http://librarycatalogue.griffith.edu.au/record=b2681940~S).
 
 ### Step 5 Version Control
 A version control system allows you and other users to keep track of changes in your Data or Process. Keep master files of all raw data and use only copies of the data for processing. Document versions of analysis software. If you are using random numbers in your research, save your random seed generator number as part of your working data. Use workflow programs and save the workflow as part of your documentation. If you are writing scripts use Git. This way, you can later reproduce your results. More here.
