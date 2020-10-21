@@ -25,24 +25,26 @@ Create a standard folder structure to keep files organised. Very helpful if shar
 
 ### Step 4 Automation
 
-Automate repetitive tasks to eliminate monotony, potential errors, and claw back time that could be better spent on research. Options include using an MS Excel text function, formula or macro, learning to create reusable scripts to repeat data cleaning tasks in OpenRefine, using pipes and loops in the Unix shell, and using Task scheduler for Windows or Automator for MacOS. Check out the [advanced Excel training](http://librarycatalogue.griffith.edu.au/record=b2768540~S1)or the [beginners' book on data analysis with Excel](http://librarycatalogue.griffith.edu.au/record=b2681940~S).
+Automate repetitive tasks to eliminate monotony, potential errors, and claw back time that could be better spent on research. Options include using an MS Excel text function, formula or macro, learning to create reusable scripts to repeat data cleaning tasks in OpenRefine, using pipes and loops in the [Unix shell](https://swcarpentry.github.io/shell-novice/), and using Task scheduler for Windows or Automator for MacOS. Check out the [advanced Excel training](http://librarycatalogue.griffith.edu.au/record=b2768540~S1) or the [beginners' book on data analysis with Excel](http://librarycatalogue.griffith.edu.au/record=b2681940~S).
 
 ### Step 5 Version Control
-A version control system allows you and other users to keep track of changes in your Data or Process. Keep master files of all raw data and use only copies of the data for processing. Document versions of analysis software. If you are using random numbers in your research, save your random seed generator number as part of your working data. Use workflow programs and save the workflow as part of your documentation. If you are writing scripts use Git. This way, you can later reproduce your results. More here.
+
+A version control system allows you and others to keep track of changes in your data, your files or your process. Keep master files of all raw data intact by using copies of the data for processing. Document the versions of analysis software you use for data processing. If you are using random numbers in your research, save your random seed generator number as part of your working data. Use workflow programs and save the workflow as part of your documentation. If you are writing scripts, use [Git](https://git-scm.com/) to keep track of versions. This way, you can later reproduce your results. [Read more about version control.](https://guereslib.github.io/Reproducible-Research-Things/Step5Version)
 
 ### Step 6 Cloud Backups
-Keep a copy of all your data (working, raw and completed) in the cloud.  This ensures that if you suffer a computer failure, lose your laptop, accidently delete or overwrite your data, or if data becomes corrupted, your research is restorable. Griffith has three different types of cloud storage designed especially for research.  Find them here.
+
+Keep a copy of all your data (working, raw and completed) in cloud-based storage. This ensures that if you suffer a computer failure, lose your laptop, accidently delete or overwrite your data, or if data becomes corrupted, your research is most likely retrievable. Griffith offers three different types of cloud storage designed especially for research. [Find the storage you need.](https://guereslib.github.io/Reproducible-Research-Things/Step6CloudBackup)
 
 ### Step 7 Computer Security 
-Securing your computer and network means that you are at far less risk of a data breach or hack. Establish good strong passwords and encrypt your computer’s hard drive.  Use a password manager to make the use of strong passwords easy. Found out how to do these here. 
+
+Securing your computer and network means that you are at far less risk of a data breach or hack. Establish good strong passwords and encrypt your computer's hard drive.  Use a password manager such as LastPass to make the use of unique, strong passwords easy. [Found out how to do these here.](https://guereslib.github.io/Reproducible-Research-Things/Step7CompSecurity)
 
 ### Step 8 Separating Identified Variables
-When protecting privacy of participants, locations or other sensitive information, plan de-identification early as part of your data management planning.    Retain original unedited versions of data for use within the research team and for preservation.  Create a de-identification log of all replacements, aggregations or removals made.  Store the log separately from the de-identified data files.   Identify replacements in text in a meaningful way, e.g. in transcribed interviews indicate replaced text with [brackets] or use XML markup tags. More here
+
+When protecting privacy of participants, locations or other sensitive information, plan de-identification early as part of your data management planning. Retain original unedited versions of data for use within the research team and for preservation. Create a de-identification log of all replacements, aggregations or removals made.  Store the log separately from the de-identified data files.   Identify replacements in text in a meaningful way, e.g., in transcribed interviews indicate replaced text with [brackets] or use XML markup tags. [Read more.](https://guereslib.github.io/Reproducible-Research-Things/Step8SepId)
 
 ### Step 9 Permanent Identifiers for your Published Results
-Once you have completed your project, make your research data discoverable, accessible and possibly re-useable through the use of a persistent identifier such as a Digital Object Identifier (DOI). A DOI is a unique number which can be assigned to publications, data sets and associated outputs such as grey literature, preprints, workflows, algorithms, software, etc. DOI’s are used for citation, linking with other research, indexing and metrics. Find out how here.
 
-Based on 9 Reproducible Research Things 
-https://guereslib.github.io/Reproducible-Research-Things/  
-created by Griffith University’s eResearch Services and Library
-licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. 
+Once you have completed your project, make your research data discoverable, accessible and possibly re-useable through the use of a persistent identifier such as a Digital Object Identifier (DOI). A DOI is a unique identifier which can be assigned to publications, data sets and associated outputs such as grey literature, preprints, workflows, algorithms, software, and more. DOIs are used for citation, linking with other research, indexing and metrics. [Find out how](https://guereslib.github.io/Reproducible-Research-Things/Step9Identifiers).
+]
+Based on [**9 Reproducible Research Things**](https://guereslib.github.io/Reproducible-Research-Things/) created jointly by Griffith University's eResearch Services and the Griffith University Library, and licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. 
