@@ -20,7 +20,12 @@ Two examples:
 
 ### Step 3 Folder Structure
 
-Create a standard folder structure to keep files organised. Very helpful if sharing files with colleagues. Folders, like files, should follow a logical naming convention.  One simple method is to create folders prefixed by number to reflect your workflow steps. Adding a leading zero for numbers 1-9 will ensure folders appear in the right sequence. Create and store a `README.txt` file outlining the contents of folders. [Read more about folders.](https://guereslib.github.io/Reproducible-Research-Things/Step3FolderStruct)
+Create a standard folder structure to keep files organised. Very helpful if sharing files with colleagues. Folders, like files, should follow a logical naming convention.  One simple method is to create folders prefixed by number to reflect your workflow steps. Adding a leading zero for numbers 1-9 will ensure folders appear in the right sequence. Create and store a `README.txt` file outlining the contents of folders.
+
+![How to organise folders](folder-org.png)
+
+
+[Read more about folders.](https://guereslib.github.io/Reproducible-Research-Things/Step3FolderStruct)
 
 
 ### Step 4 Automation
