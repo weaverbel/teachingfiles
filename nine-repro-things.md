@@ -12,9 +12,10 @@ Name your files consistently and logically to protect yourself from misplaced or
 `YYYY-MM-DD_ProjectAbbreviation_FileInformation_Version.filetype`
 
 translates to:
-`2020-01-20_BehChange_Survey1_RawData.xls
 
-2020-01-20_BehChange_Survey1_WorkData_V1.xls`
+`2020-01-20_BehChange_Survey1_RawData.xls`
+
+`2020-01-20_BehChange_Survey1_WorkData_V1.xls`
 
 ### Step 3 Folder Structure
 Create a standard folder structure to keep files organised. Very helpful if sharing files with colleagues. Folders should also follow a logical naming convention.  One simple method is to create folders prefixed by number to reflect your workflow steps. Adding a leading zero for numbers 1-9 will ensure folders appear in the right sequence. Create and store a README.txt file outlining the contents of folders. More here 
