@@ -52,4 +52,8 @@ When protecting privacy of participants, locations or other sensitive informatio
 
 Once you have completed your project, make your research data discoverable, accessible and possibly re-useable through the use of a persistent identifier such as a Digital Object Identifier (DOI). A DOI is a unique identifier which can be assigned to publications, data sets and associated outputs such as grey literature, preprints, workflows, algorithms, software, and more. DOIs are used for citation, linking with other research, indexing and metrics. [Find out how](https://guereslib.github.io/Reproducible-Research-Things/Step9Identifiers).
 
-Based on [**9 Reproducible Research Things**](https://guereslib.github.io/Reproducible-Research-Things/) created jointly by Griffith University's eResearch Services and the Griffith University Library, and licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. 
+Based on [**9 Reproducible Research Things**](https://guereslib.github.io/Reproducible-Research-Things/) created jointly by [Griffith University](https://www.griffith.edu.au/)'s [eResearch Services](https://www.griffith.edu.au/eresearch-services) and the [Griffith University Library](https://www.griffith.edu.au/library).
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
