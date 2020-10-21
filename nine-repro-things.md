@@ -12,7 +12,7 @@ From the outset, name your files consistently and logically to protect yourself 
 
 `YYYY-MM-DD_ProjectAbbreviation_FileInformation_Version.filetype`
 
-Two examples of filename using this system:
+Two examples of filenames using this system:
 
 `2020-01-20_BehChange_Survey1_RawData.xls`
 
