@@ -4,7 +4,7 @@
 
 Document all the procedures for your experiment, trial, survey, or study so that someone outside your project could understand your workings.  Record where results and working data will be saved and save that information where your chief investigator, supervisor or team members can access it.  Use a word document or text file to record the steps.  
 
-Read how to do that here: [How to start documenting and more by CESSDA ERIC](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata).
+This training provides some tips on [how to start documenting and more](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata).
 
 ### Step 2 Naming conventions
 
