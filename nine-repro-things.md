@@ -2,7 +2,7 @@
 
 ### Step 1 - Documentation
 
-Document all the procedures for your experiment, trial, survey etc. so that someone outside your project could understand your workings.  Record where results and working data will be saved and save that information where your supervisor or team can access it.  Use a word document or text file.  More details here: How to start Documenting and more by CESSDA ERIC
+Document all the procedures for your experiment, trial, survey etc. so that someone outside your project could understand your workings.  Record where results and working data will be saved and save that information where your supervisor or team can access it.  Use a word document or text file.  More details here: [How to start Documenting and more by CESSDA ERIC](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata).
 
 ### Step 2 Naming conventions
 Name your files consistently and logically to protect yourself from misplaced or lost data and possible project delays. Establishing a consistent file naming convention from the start will ensure files are easier to find, process, understand, and version control.  A good, basic convention includes standard order, date formats, vocabulary, numbers and punctuation such as these examples:
